@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Trial = () => {
+export const Deals = () => {
     let i = 0;
     let images = [];
     const limit = 2
@@ -44,7 +44,7 @@ export const Trial = () => {
     }
 
   return (
-    <div className=' h-96 w-full bg-inherit flex justify-center items-center text-gray-800 bg-gray-200'>
+    <div className=' h-96 w-full bg-inherit flex justify-center items-center text-gray-800 bg-slate-200'>
         <div className="DealsInner w-5/6 h-full flex justify-start items-center bg-inherit py-10">
         <div className="Dealsleft flex flex-col justify-start gap-2 h-full pr-10 w-full">
             <h2 className=' font-semibold'>Deals of the Month</h2>
@@ -74,11 +74,11 @@ export const Trial = () => {
         </div>
         <div className="button flex justify-end items-end w-18 h-full px-2 mr-3 gap-1">
                 <button onClick={prev} className=' w-2/4 p-1 rounded-full bg-gray-50 cursor-pointer' ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4">
-  <path fill-rule="evenodd" d="M9.78 4.22a.75.75 0 0 1 0 1.06L7.06 8l2.72 2.72a.75.75 0 1 1-1.06 1.06L5.47 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
+  <path fillRule="evenodd" d="M9.78 4.22a.75.75 0 0 1 0 1.06L7.06 8l2.72 2.72a.75.75 0 1 1-1.06 1.06L5.47 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
 </svg>
 </button>
                 <button onClick={next} className=' w-2/4 rounded-full p-1 bg-gray-50 cursor-pointer' ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4">
-  <path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+  <path fillRule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
 </svg>
 </button>
         </div>
@@ -98,10 +98,10 @@ export const Trial = () => {
         backgroundImage: `url('./src/assets/Deals/deal4.jpg')`}}></div>
                 </div>
                 <div className="checkBoxes w-full h-16 justify-start items-end gap-2 flex">
-                    <div className="circles w-1 h-1 bg-slate-800 rounded-full"></div>
-                    <div className="circles w-1 h-1 bg-slate-800 rounded-full"></div>
-                    <div className="circles w-1 h-1 bg-slate-800 rounded-full"></div>
-                    <div className="circles w-1 h-1 bg-slate-800 rounded-full"></div>
+                    <div className="circles w-2 h-2 bg-slate-600 rounded-full"></div>
+                    <div className="circles w-2 h-2 bg-slate-600 rounded-full"></div>
+                    <div className="circles w-2 h-2 bg-slate-600 rounded-full"></div>
+                    <div className="circles w-2 h-2 bg-slate-600 rounded-full"></div>
 
                 </div>
             </div>

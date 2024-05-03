@@ -3,9 +3,10 @@ import { ResetPasswordPage2 } from "./components/Authenthication/ResetPasswordPa
 import { ResetPasswordPage3 } from "./components/Authenthication/ResetPasswordPage3"
 import { SignInPage } from "./components/Authenthication/SignInPage"
 import {SignUpPage} from "./components/Authenthication/SignUpPage"
+import { Deals } from "./components/HomePage/Deals"
 import { HeroSection } from "./components/HomePage/HeroSection"
+import { NewArrivals } from "./components/HomePage/NewArrivals"
 import { Partners } from "./components/HomePage/Partners"
-import { Trial } from "./components/HomePage/Trial"
 import { NavBar } from "./components/NavBar"
 
 
@@ -22,7 +23,8 @@ function App() {
       <NavBar />
       <HeroSection />
       <Partners />
-      <Trial />
+      <Deals />
+      <NewArrivals />
     </div>
     </>
   )
